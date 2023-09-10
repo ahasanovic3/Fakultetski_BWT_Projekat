@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+    </head>
+    <body>
+        <div>
+            <form id="formaDobijanjePrisustva">
+                <label for="kodPredmeta">Kod: </label>
+                <br>
+                <input id="kodPredmeta" type="text" name="kodPredmeta">
+                <br>
+                <br>
+                <label for="indexStudenta">Index: </label>
+                <br>
+                <input id="indexStudenta" type="text" name="indexStudenta">
+                <br>
+                <br>
+                <label for="sedmica">Sedmica: </label>
+                <br>
+                <input id="sedmica" type="number" name="sedmica">
+                <br>
+                <br>
+                <input type="button" id="potvrda" value="Potvrdi" onclick='potvrdi()'>
+                <br>
+                <br>
+            </form>
+            <div id="omotac">
+
+            </div>
+        </div>
+        
+        <script src="prisustvo.js"></script>
+        <script src="AjaxPozivi.js"></script>
+    </body>
+</html>
